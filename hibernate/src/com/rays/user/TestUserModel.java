@@ -16,7 +16,7 @@ public class TestUserModel {
 //		testGet();
 //		testDelete();
 //		testAuth();
-		testSearch();
+	//	testSearch();
 
 	}
 
@@ -109,12 +109,12 @@ public class TestUserModel {
 	private static void testAdd() {
 
 		UserDTO dto = new UserDTO();
-		dto.setFirstName("sandeep");
-		dto.setLastName("gujjar");
-		dto.setLoginId("sandygujjar@gmail.com");
+		dto.setFirstName("adi");
+		dto.setLastName("sharma");
+		dto.setLoginId("sandygujjar1122@gmail.com");
 		dto.setPassword("968");
 		dto.setDob(new Date());
-		dto.setAddress("bhopal");
+		dto.setAddress("indore");
 
 		UserModel model = new UserModel();
 

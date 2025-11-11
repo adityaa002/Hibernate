@@ -35,8 +35,8 @@ public class TestNamedQuery {
 			System.out.print("\t" + dto.getPassword());
 			System.out.println("\t" + dto.getAddress());
 
-			session.close();
 		}
+		session.close();
 	}
 
 }

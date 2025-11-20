@@ -6,7 +6,7 @@
 	<class name="in.co.rays.inheritance.Payment" table="PAYMENT">
 		<id name="id" type="int">
 			<column name="ID" />
-			<generator class="in" />
+			<generator class="increment" />
 		</id>
 		<discriminator column="DISCRIMINATOR_VALUE"
 			type="string"></discriminator>
@@ -14,8 +14,8 @@
 		<property name="amount" type="int">
 			<column name="AMOUNT" />
 		</property>
-		
-		
+
+
 		<property name="paymentType" type="java.lang.String">
 			<column name="PAYMENTTYPE" />
 		</property>
